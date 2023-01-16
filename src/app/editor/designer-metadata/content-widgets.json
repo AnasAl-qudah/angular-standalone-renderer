@@ -12,6 +12,13 @@
                     "initialProperties": []
                 },
                 { 
+                    "name": "HelloWorld", 
+                    "addWidgetName": null, 
+                    "addWidgetTitle": null, 
+                    "title": "Hello world", 
+                    "initialProperties": [] 
+                },
+                { 
                     "name": "SitefinityChart", 
                     "addWidgetName": null, 
                     "addWidgetTitle": null, 

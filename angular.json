@@ -63,7 +63,7 @@
                 }
               ],
               "outputHashing": "all",
-              "deployUrl": "/sitefinity/public/renderers/angular/"
+              "deployUrl": "/sfrenderer/renderers/Angular"
             },
             "development": {
               "buildOptimizer": false,
@@ -79,7 +79,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "deployUrl": "/sitefinity/public/renderers/angular/"
+            "deployUrl": "/sfrenderer/renderers/Angular"
           },
           "configurations": {
             "production": {

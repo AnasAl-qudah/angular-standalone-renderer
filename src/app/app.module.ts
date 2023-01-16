@@ -27,6 +27,7 @@ import { ChartsModule } from '@progress/kendo-angular-charts';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import 'hammerjs';
 import { ChartComponent } from "./components/chart/chart.component";
+import { HelloWorldComponent } from "./components/hello-world/HelloWorldComponent";
 
 
 
@@ -45,14 +46,16 @@ import { ChartComponent } from "./components/chart/chart.component";
         DynamicAttributesDirective,
         ListWithImageComponent,
         ListWithSummaryComponent,
-        ChartComponent
+        ChartComponent,
+        HelloWorldComponent
     ],
     entryComponents: [
         ContentComponent,
         ErrorComponent,
         SectionComponent,
         ContentListComponent,
-        ChartComponent
+        ChartComponent,
+        HelloWorldComponent
     ],
     imports: [
         BrowserModule,

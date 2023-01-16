@@ -10,12 +10,14 @@ import { ModelBase } from "../models/model-base";
 import { RenderContext } from "./render-context";
 import { WidgetModel } from "../editor/renderer-contract";
 import { ChartComponent } from "../components/chart/chart.component";
+import { HelloWorldComponent } from "../components/hello-world/HelloWorldComponent";
 
 export const TYPES_MAP: { [key: string]: Function } = {
     "SitefinityContentBlock": ContentComponent,
     "SitefinitySection": SectionComponent,
     "SitefinityContentList": ContentListComponent,
-    "SitefinityChart": ChartComponent
+    "SitefinityChart": ChartComponent,
+    "HelloWorld": HelloWorldComponent
 };
 
 @Injectable()

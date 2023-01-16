@@ -7,6 +7,7 @@ import sitefinityChartJson from '../components/chart/designer-metadata.json';
 
 import contentWidgetsJson from './designer-metadata/content-widgets.json';
 import layoutWidgetsJson from './designer-metadata/layout-widgets.json';
+import helloWorldJson from '../components/hello-world/designer-metadata.json';
 
 @Injectable()
 export class RendererContractImpl implements RendererContract {
@@ -15,7 +16,8 @@ export class RendererContractImpl implements RendererContract {
         "SitefinityContentBlock": sitefinityContentBlockJson,
         "SitefinitySection": sitefinitySectionJson,
         "SitefinityContentList": sitefinityContentListJson,
-        "SitefinityChart": sitefinityChartJson
+        "SitefinityChart": sitefinityChartJson,
+        "HelloWorld": helloWorldJson
     }
 
     constructor(private renderWidgetService: RenderWidgetService) {

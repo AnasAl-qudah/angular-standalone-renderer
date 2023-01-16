@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    sitefinityUrl: "https://localhost:8081/",
+    sitefinityUrl: "http://localhost:60876/",
     serviceUrl: "api/default"
 };
